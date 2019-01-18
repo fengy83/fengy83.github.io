@@ -92,7 +92,7 @@ body.mu .icon-logo {color:#333;}
 .menu a:hover {color:#333;}
 .nav p {color:#999;font-size:14px;position:absolute;width:100%;text-align:center;bottom:30px;}
 .nav p a {color:#999;text-decoration:underline;}
-.nav p:first-letter {font-family:Calibre;}
+.nav p:first-letter {font-family:'Encode Sans Condensed';}
 #container {padding-bottom:100px;overflow:hidden;position:relative;}
 #container:before {content:'';display:block;width:1px;height:200%;position:absolute;left:50%;background:#eaeaea;top:-50%;z-index:0;}
 #primary {position:relative;}
