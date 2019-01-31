@@ -1,7 +1,7 @@
 body,div,h1,h2,h3,h4,h5,p,ul,li {margin:0;padding:0;font-weight:normal;list-style:none;}
 html {-webkit-text-size-adjust:100%;}
 html,body {-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-font-smoothing:antialiased;background:#fff;}
-body {font-family:'Encode Sans Condensed',"Hiragino Sans GB", "Microsoft YaHei Light", Arial, sans-serif;font-size:22px;position:relative;overflow-x:hidden;}
+body {font-family:"Hiragino Sans GB", "Microsoft YaHei Light",Helvetica, Arial, sans-serif;font-size:22px;position:relative;overflow-x:hidden;}
 body:before {background:grey;position:absolute;content:'';display:block;width:14px;height:14px;left:50%;top:50%;margin-left:-7px;margin-top:-7px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-webkit-animation:loading 2s ease-out forwards infinite;-moz-animation:loading 2s ease-out forwards infinite;display:none;}
 body.loading:before {display:block;}
 @-webkit-keyframes loading {
@@ -47,7 +47,7 @@ body.mu .image-logo {background-color:black;}
 .else h3 a {color:#333;}
 .else h3 + p {color:#555;margin:10px 100px 0 80px;font-size:14px;line-height:1.8;}
 .here {position:absolute;left:80px;bottom:80px;color:#999;font-size:13px;}
-.here span {display:inline-block;vertical-align:middle;margin-right:10px;font-family:'Encode Sans Condensed', 'Noto Sans SC', sans-serif;}
+.here span {display:inline-block;vertical-align:middle;margin-right:10px;font-family:Helvetica, Arial, sans-serif;}
 .here span:before {display:inline-block;vertical-align:top;margin-right:7px;font-size:16px;}
 .here a {display:inline-block;cursor:default;}
 .here .icon-like {color:#999!important;margin-right:0;}
@@ -92,7 +92,7 @@ body.mu .icon-logo {color:#333;}
 .menu a:hover {color:#333;}
 .nav p {color:#999;font-size:14px;position:absolute;width:100%;text-align:center;bottom:30px;}
 .nav p a {color:#999;text-decoration:underline;}
-.nav p:first-letter {font-family:'Encode Sans Condensed';}
+.nav p:first-letter {font-family:Helvetica, Arial;}
 #container {padding-bottom:100px;overflow:hidden;position:relative;}
 #container:before {content:'';display:block;width:1px;height:200%;position:absolute;left:50%;background:#eaeaea;top:-50%;z-index:0;}
 #primary {position:relative;}
